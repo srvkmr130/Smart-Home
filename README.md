@@ -7,7 +7,7 @@ PIR Motion Detectors are also installed that let us recieve an Intruder Alert No
 ## Work in the line:
 
 ### HOME SAFETY
-     Gas leakage 
+     Sensing Gas leakage 
      Fire Detection
      Smart Watch
      
