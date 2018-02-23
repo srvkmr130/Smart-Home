@@ -14,7 +14,7 @@ int pirstate =LOW;
 int val = 0;
 
 void setup(){
-  Serial.begin(115200);
+  Serial.begin(9600);
   delay(10);
   pinMode(ledpin,OUTPUT);
   pinMode(pirpin,INPUT);
@@ -86,7 +86,7 @@ void sendStream()
   if (client.connect(server, 80)) {   // If there's a successful connection
     Serial.println(F("connected"));
     // Build the data field
-String json = "{\"protocol\":\"v2\",\"device\":\""+DEVICE+"\",\"at\":1356390000,\"data\":{\"light\":\""+txt+"\"}}";
+    String json = "{\"protocol\":\"v2\",\"device\":\""+DEVICE+"\",\"at\":1356390000,\"data\":{\"light\":\""+txt+"\"}}";
     // Make a HTTP request
     client.println("POST /streams HTTP/1.1");
     client.println("Host: api.carriots.com");
