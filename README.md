@@ -7,6 +7,7 @@ PIR Motion Detectors are also installed that let us recieve an Intruder Alert No
 [Watch the project progress:](https://drive.google.com/open?id=1XQgNozsFRqnELPfEU6QUjQ7EjbhcH7e4)  
 
 ## More Work in the line:
+----
 
 ### HOME SAFETY
      Sensing Gas leakage 
