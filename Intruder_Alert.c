@@ -1,7 +1,7 @@
 #include <SPI.h>
 #include "ESP8266WiFi.h"
 
-const char* ssid     = "SHUBHASHIS";
+const char* ssid     = "password";
 const char* password = "123456789";
 
 const char* server = "api.carriots.com";
